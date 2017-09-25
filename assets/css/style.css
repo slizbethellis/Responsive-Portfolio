@@ -1,0 +1,201 @@
+<style>
+* {
+	box-sizing: border-box;
+	height: 100%;
+	width: 960px;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #777777;
+}
+
+header {
+	height: 90px;
+	width: 250px;
+	margin: 0 0 0 155px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 36px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	line-height: 250%;
+	float: left;
+	text-align: center;
+}
+
+nav, p, footer {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+nav {
+	height: 90px;
+	width: 100%;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2, h3 {
+	color: #4aaaa5;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	color: #ffffff;
+	font-size: 24px;
+}
+
+p {
+	line-height: 200%;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 16px 32px;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.navbar {
+	list-style-type: none;
+	float: center;
+	text-align: center;
+	margin: 0;
+	padding: 30px 0 0 0;
+}
+
+.navlink {
+	border-right: 1px solid #dddddd;
+	padding: 0 15px 0 15px;
+	margin: 0;
+	display: inline-block;
+	font-size: 20px;
+	color: #777777;
+}
+
+.navlink:last-of-type {
+	border: none;
+}
+
+.bg-container {
+	background-image: url("../images/asanoha-400px.png");
+	width: 100%;
+	height: auto;
+	float: left;
+	margin: 0;
+	padding: 0;
+	border-top: 3px solid #dddddd;
+	border-bottom: 5px solid #4aaaa5;
+}
+
+.h2-head {
+	border-bottom: 3px solid #dddddd;
+	padding-bottom: 30px;
+}
+
+.h3-head {
+	border-bottom: 2px solid #dddddd;
+	padding-bottom: 30px;
+}
+
+aside, #main-bio, #portfolio, #contact-form {
+	border: 2px;
+	border-style: solid;
+	border-color: #dddddd;
+	padding: 30px;
+}
+
+aside {
+	width: 270px;
+	float: left;
+	margin: 35px auto auto 40px;
+	background-color: #ffffff;
+}
+
+.connect-img {
+	width: 60px;
+	padding-top: 30px;
+	margin-right: 10px;
+	float: left;
+}
+
+.text-box {
+	width: 275px;
+	height: 60px;
+	position: relative;
+	bottom: 70px;
+	background-color: #4aaaa5;
+	text-align: center;
+	line-height: 350%;
+}
+
+.port-img {
+	display: inline-block;
+	float: left;
+	padding: 0 25px 0 25px;
+}
+
+#main-bio, #portfolio, #contact-form {
+	width: 650px;
+	height: auto;
+	float: left;
+	margin: 35px auto 35px 155px;
+	background-color: #ffffff;
+	overflow: auto;
+}
+
+#bio-image {
+	padding-top: 30px;
+	width: 200px;
+	margin: 0 25px 0 0;
+	float: left;
+}
+
+#bio-text {
+	padding-top: 20px;
+}
+
+#port-img-wrapper {
+	padding-top: 30px;
+}
+
+footer {
+	background-color: #666666;
+	color: #bbbbbb;
+	float: left;
+	margin: 0;
+	padding-top: 35px;
+	width: 100%;
+	height: 50px;
+	font-size: 12px;
+	text-align: center;
+}
+
+</style>
